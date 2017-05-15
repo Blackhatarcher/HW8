@@ -15,72 +15,64 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTAssignment.cpp">
+    <ClCompile Include="ASTAssignment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCin.cpp">
+    <ClCompile Include="ASTCin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCodeGroup.cpp">
+    <ClCompile Include="ASTCodeGroup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCout.cpp">
+    <ClCompile Include="ASTCout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTExpression.cpp">
+    <ClCompile Include="ASTExpression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTForLoop.cpp">
+    <ClCompile Include="ASTForLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTIfElse.cpp">
+    <ClCompile Include="ASTIfElse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTNode.cpp">
+    <ClCompile Include="ASTNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTWhileLoop.cpp">
+    <ClCompile Include="ASTWhileLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTAssignment.hpp">
+    <ClInclude Include="ASTCin.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCin.hpp">
+    <ClInclude Include="ASTAssignment.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCodeGroup.hpp">
+    <ClInclude Include="ASTCodeGroup.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCout.hpp">
+    <ClInclude Include="ASTCout.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTExpression.hpp">
+    <ClInclude Include="ASTExpression.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTForLoop.hpp">
+    <ClInclude Include="ASTForLoop.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTIfElse.hpp">
+    <ClInclude Include="ASTIfElse.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTNode.hpp">
+    <ClInclude Include="ASTNode.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTWhileLoop.hpp">
+    <ClInclude Include="ASTWhileLoop.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\Homework8.vcxproj">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\Homework8.vcxproj.filters">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

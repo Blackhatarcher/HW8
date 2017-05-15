@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASTAssignment.cpp" />
+    <ClCompile Include="ASTCin.cpp" />
+    <ClCompile Include="ASTCodeGroup.cpp" />
+    <ClCompile Include="ASTCout.cpp" />
+    <ClCompile Include="ASTExpression.cpp" />
+    <ClCompile Include="ASTForLoop.cpp" />
+    <ClCompile Include="ASTIfElse.cpp" />
+    <ClCompile Include="ASTNode.cpp" />
+    <ClCompile Include="ASTWhileLoop.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASTAssignment.hpp" />
+    <ClInclude Include="ASTCin.hpp" />
+    <ClInclude Include="ASTCodeGroup.hpp" />
+    <ClInclude Include="ASTCout.hpp" />
+    <ClInclude Include="ASTExpression.hpp" />
+    <ClInclude Include="ASTForLoop.hpp" />
+    <ClInclude Include="ASTIfElse.hpp" />
+    <ClInclude Include="ASTNode.hpp" />
+    <ClInclude Include="ASTWhileLoop.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{277FB46E-A041-43B6-A727-828CA52D745F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -141,33 +164,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTAssignment.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCin.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCodeGroup.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCout.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTExpression.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTForLoop.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTIfElse.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTNode.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTWhileLoop.cpp" />
-    <ClCompile Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTAssignment.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCin.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCodeGroup.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTCout.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTExpression.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTForLoop.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTIfElse.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTNode.hpp" />
-    <ClInclude Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\ASTWhileLoop.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\Homework8.vcxproj" />
-    <None Include="..\..\..\..\..\Documents\School\Computer Science\Homework8\Homework8\Homework8\Homework8.vcxproj.filters" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
