@@ -21,7 +21,7 @@ int ASTAssignment::evaluate(std::map<std::string, int>& variables)
 {
     //TO DO: Impliment this.  Update the variable with the value
     //and return the value as the result
-	
+	int num = _value->evaluate(variables);
 	variables[_variable] = num;
 	return num;
 }

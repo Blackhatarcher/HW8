@@ -67,7 +67,14 @@ int ASTExpression::precedence()
 int ASTExpression::evaluate(std::map<std::string, int>& variables)
 {
     //TO DO: Evaluate this expression and return the result
-    
+	if (_type == typeVal) {
+		return _value;
+	}
+	else {
+		if (true) {                                    //<----------------------------------------------------
+
+		}
+	}
 	return _value;
 }
 
@@ -75,8 +82,42 @@ void ASTExpression::print(int nestingLevel)
 {
     //TO DO: Print this expression
 	indent(nestingLevel);
-	cout<<_leftExpression;
-	cout << _type;
-	cout << _rightExpression;
+	if (_type == typeVal) {
+		cout << _value;
+	}
+	else {
+		if (_type == typeVar) {
+			cout << _variable;
+		}
+		else {
+			_leftExpression->print(0);
+			switch (_type) {
+			case typeAdd:
+				cout << "+";
+			case typeSub:
+				cout << "-";
+			case typeMul:
+				cout << "x";
+			case typeDiv:
+				cout << "/";
+			case typeGreaterThan:
+				cout << ">";
+			case typeGreaterThanOrEqual:
+				cout << ">=";
+			case typeLessThan:
+				cout << "<";
+			case typeLessThanOrEqual:
+				cout << "<=";
+			case typeEqual:
+				cout << "=";
+			case typeNotEqual:
+				cout << "!=";
+			
+				break;
+			}
+			_rightExpression->print(0);
+		}
+	}
+	
 }
 
